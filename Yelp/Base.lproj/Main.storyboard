@@ -68,7 +68,7 @@
                                                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1. Grand Pu Bah" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oh0-Yo-aAP">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="1. Grand Pu Bah" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oh0-Yo-aAP">
                                                     <rect key="frame" x="73" y="0.0" width="115" height="18"/>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                                     <nil key="highlightedColor"/>
@@ -76,6 +76,8 @@
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="csl-hL-1UB" firstAttribute="leading" secondItem="lbG-mk-Wbd" secondAttribute="leading" constant="8" id="bBr-XV-4DV"/>
+                                                <constraint firstItem="Oh0-Yo-aAP" firstAttribute="top" secondItem="lbG-mk-Wbd" secondAttribute="top" constant="8" id="fJK-aH-GQy"/>
+                                                <constraint firstItem="Oh0-Yo-aAP" firstAttribute="leading" secondItem="csl-hL-1UB" secondAttribute="trailing" constant="8" id="lFg-YZ-n99"/>
                                                 <constraint firstItem="csl-hL-1UB" firstAttribute="top" secondItem="lbG-mk-Wbd" secondAttribute="top" constant="7" id="xPv-wG-gzO"/>
                                                 <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="csl-hL-1UB" secondAttribute="bottom" constant="12" id="zK3-lt-Qs0"/>
                                             </constraints>
