@@ -77,7 +77,7 @@
                                             <constraints>
                                                 <constraint firstItem="csl-hL-1UB" firstAttribute="leading" secondItem="lbG-mk-Wbd" secondAttribute="leading" constant="8" id="bBr-XV-4DV"/>
                                                 <constraint firstItem="csl-hL-1UB" firstAttribute="top" secondItem="lbG-mk-Wbd" secondAttribute="top" constant="7" id="xPv-wG-gzO"/>
-                                                <constraint firstAttribute="bottom" secondItem="csl-hL-1UB" secondAttribute="bottom" constant="53" id="zK3-lt-Qs0"/>
+                                                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="csl-hL-1UB" secondAttribute="bottom" constant="12" id="zK3-lt-Qs0"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
