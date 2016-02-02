@@ -89,8 +89,8 @@
                         <constraints>
                             <constraint firstItem="7bo-D0-Zw7" firstAttribute="leading" secondItem="XhR-oz-92f" secondAttribute="leading" id="HyA-y0-INy"/>
                             <constraint firstItem="VBY-gq-v8E" firstAttribute="top" secondItem="7bo-D0-Zw7" secondAttribute="bottom" id="Itx-fE-qOA"/>
-                            <constraint firstItem="7bo-D0-Zw7" firstAttribute="top" secondItem="hR0-74-jRp" secondAttribute="bottom" id="hdJ-Wk-HNq"/>
                             <constraint firstAttribute="trailing" secondItem="7bo-D0-Zw7" secondAttribute="trailing" id="iV8-Rt-C56"/>
+                            <constraint firstItem="7bo-D0-Zw7" firstAttribute="top" secondItem="XhR-oz-92f" secondAttribute="top" id="iWC-0V-gsU"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Yelp" id="3XT-mG-vht"/>
