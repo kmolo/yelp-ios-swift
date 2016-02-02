@@ -28,8 +28,8 @@
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="134.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="csl-hL-1UB">
-                                                    <rect key="frame" x="0.0" y="0.0" width="65" height="65"/>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="csl-hL-1UB">
+                                                    <rect key="frame" x="8" y="7" width="65" height="65"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="65" id="1E5-nN-Q47"/>
                                                         <constraint firstAttribute="width" constant="65" id="Mvo-7Z-FwX"/>
@@ -61,8 +61,8 @@
                                                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="88 Division St, Mission Bay" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mqb-RZ-M3C">
-                                                    <rect key="frame" x="81" y="44" width="164" height="16"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="88 Division St, Mission Bay" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mqb-RZ-M3C">
+                                                    <rect key="frame" x="81" y="44" width="231" height="16"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
@@ -75,7 +75,9 @@
                                                 </label>
                                             </subviews>
                                             <constraints>
+                                                <constraint firstItem="mqb-RZ-M3C" firstAttribute="top" secondItem="Oh0-Yo-aAP" secondAttribute="bottom" constant="18" id="2nh-OS-qNJ"/>
                                                 <constraint firstItem="HxK-D4-gus" firstAttribute="leading" secondItem="csl-hL-1UB" secondAttribute="trailing" constant="8" id="8t7-MG-pTR"/>
+                                                <constraint firstItem="mqb-RZ-M3C" firstAttribute="leading" secondItem="csl-hL-1UB" secondAttribute="trailing" constant="8" id="OtZ-iV-wRA"/>
                                                 <constraint firstItem="AM3-wB-suW" firstAttribute="top" secondItem="HTF-6X-oqd" secondAttribute="bottom" constant="5" id="WoV-xD-O0m"/>
                                                 <constraint firstAttribute="trailing" secondItem="AM3-wB-suW" secondAttribute="trailing" constant="8" id="YV2-71-dWY"/>
                                                 <constraint firstItem="Xjr-UD-cWm" firstAttribute="leading" secondItem="HxK-D4-gus" secondAttribute="trailing" constant="2" id="ZnA-jW-XdA"/>
@@ -84,6 +86,7 @@
                                                 <constraint firstItem="Oh0-Yo-aAP" firstAttribute="top" secondItem="lbG-mk-Wbd" secondAttribute="top" constant="8" id="edU-W8-zBw"/>
                                                 <constraint firstItem="HxK-D4-gus" firstAttribute="top" secondItem="Oh0-Yo-aAP" secondAttribute="bottom" constant="5" id="hyk-kQ-rMz"/>
                                                 <constraint firstAttribute="trailing" secondItem="HTF-6X-oqd" secondAttribute="trailing" constant="8" id="iwQ-if-ZLh"/>
+                                                <constraint firstAttribute="trailing" secondItem="mqb-RZ-M3C" secondAttribute="trailing" constant="8" id="oIM-o4-fIh"/>
                                                 <constraint firstItem="Xjr-UD-cWm" firstAttribute="top" secondItem="Oh0-Yo-aAP" secondAttribute="bottom" constant="5" id="pCD-2b-05K"/>
                                                 <constraint firstItem="HTF-6X-oqd" firstAttribute="top" secondItem="lbG-mk-Wbd" secondAttribute="top" constant="8" id="q6u-Kg-KmZ"/>
                                                 <constraint firstItem="csl-hL-1UB" firstAttribute="top" secondItem="lbG-mk-Wbd" secondAttribute="top" constant="7" id="xPv-wG-gzO"/>
