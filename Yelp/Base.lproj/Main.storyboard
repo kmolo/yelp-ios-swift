@@ -35,11 +35,6 @@
                                                         <constraint firstAttribute="width" constant="65" id="Mvo-7Z-FwX"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="1. Grand Pu Bah" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oh0-Yo-aAP">
-                                                    <rect key="frame" x="81" y="8" width="115" height="18"/>
-                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="HxK-D4-gus">
                                                     <rect key="frame" x="81" y="31" width="83" height="15"/>
                                                     <constraints>
@@ -47,6 +42,11 @@
                                                         <constraint firstAttribute="width" constant="83" id="Ubs-cO-L15"/>
                                                     </constraints>
                                                 </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="1. Grand Pu Bah" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oh0-Yo-aAP">
+                                                    <rect key="frame" x="81" y="8" width="115" height="18"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="0.07 mi" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HTF-6X-oqd">
                                                     <rect key="frame" x="267" y="8" width="44.5" height="16"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="13"/>
@@ -71,8 +71,8 @@
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Thai, Seafood, Salad" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DwE-Np-V7h">
-                                                    <rect key="frame" x="81" y="56.5" width="231" height="16"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thai, Seafood, Salad" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DwE-Np-V7h">
+                                                    <rect key="frame" x="81" y="67" width="231" height="16"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
@@ -95,6 +95,7 @@
                                                 <constraint firstAttribute="trailing" secondItem="mqb-RZ-M3C" secondAttribute="trailing" constant="8" id="oIM-o4-fIh"/>
                                                 <constraint firstItem="Xjr-UD-cWm" firstAttribute="top" secondItem="Oh0-Yo-aAP" secondAttribute="bottom" constant="5" id="pCD-2b-05K"/>
                                                 <constraint firstItem="HTF-6X-oqd" firstAttribute="top" secondItem="lbG-mk-Wbd" secondAttribute="top" constant="8" id="q6u-Kg-KmZ"/>
+                                                <constraint firstItem="DwE-Np-V7h" firstAttribute="top" secondItem="mqb-RZ-M3C" secondAttribute="bottom" constant="1" id="vZ6-ty-nhr"/>
                                                 <constraint firstItem="csl-hL-1UB" firstAttribute="top" secondItem="lbG-mk-Wbd" secondAttribute="top" constant="7" id="xPv-wG-gzO"/>
                                                 <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="DwE-Np-V7h" secondAttribute="bottom" constant="12" id="yvu-CF-HJ6"/>
                                                 <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="csl-hL-1UB" secondAttribute="bottom" constant="12" id="zK3-lt-Qs0"/>
