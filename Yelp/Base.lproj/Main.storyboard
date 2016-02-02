@@ -24,12 +24,16 @@
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="BusinessCell" rowHeight="75" id="uq0-Ph-RPz" customClass="BusinessCell" customModule="Yelp" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="92" width="320" height="75"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="uq0-Ph-RPz" id="lbG-mk-Wbd">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="uq0-Ph-RPz" id="lbG-mk-Wbd">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="74.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="csl-hL-1UB">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="csl-hL-1UB">
                                                     <rect key="frame" x="0.0" y="0.0" width="65" height="65"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="65" id="1E5-nN-Q47"/>
+                                                        <constraint firstAttribute="width" constant="65" id="Mvo-7Z-FwX"/>
+                                                    </constraints>
                                                 </imageView>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HxK-D4-gus">
                                                     <rect key="frame" x="73" y="19" width="83" height="15"/>
@@ -70,6 +74,11 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstItem="csl-hL-1UB" firstAttribute="leading" secondItem="lbG-mk-Wbd" secondAttribute="leading" constant="8" id="bBr-XV-4DV"/>
+                                                <constraint firstItem="csl-hL-1UB" firstAttribute="top" secondItem="lbG-mk-Wbd" secondAttribute="top" constant="7" id="xPv-wG-gzO"/>
+                                                <constraint firstAttribute="bottom" secondItem="csl-hL-1UB" secondAttribute="bottom" constant="53" id="zK3-lt-Qs0"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="addressLabel" destination="mqb-RZ-M3C" id="Yic-zK-duU"/>
