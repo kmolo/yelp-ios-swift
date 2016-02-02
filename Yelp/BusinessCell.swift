@@ -9,6 +9,19 @@
 import UIKit
 
 class BusinessCell: UITableViewCell {
+    
+    
+    @IBOutlet weak var thumbnailImageView: UIImageView!
+    @IBOutlet weak var ratingsImageView: UIImageView!
+    
+    
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var distanceLabel: UILabel!
+    @IBOutlet weak var reviewCountLabel: UILabel!
+    @IBOutlet weak var priceRangeLabel: UILabel!
+    @IBOutlet weak var addressLabel: UILabel!
+    @IBOutlet weak var categoriesLabel: UILabel!
+    
 
     override func awakeFromNib() {
         super.awakeFromNib()

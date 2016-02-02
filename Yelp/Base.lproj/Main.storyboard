@@ -71,6 +71,16 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="addressLabel" destination="mqb-RZ-M3C" id="Yic-zK-duU"/>
+                                            <outlet property="categoriesLabel" destination="DwE-Np-V7h" id="C62-CV-rtm"/>
+                                            <outlet property="distanceLabel" destination="HTF-6X-oqd" id="QUd-eY-2hx"/>
+                                            <outlet property="nameLabel" destination="Oh0-Yo-aAP" id="ypL-ZL-jYu"/>
+                                            <outlet property="priceRangeLabel" destination="AM3-wB-suW" id="qR6-Tj-6MI"/>
+                                            <outlet property="ratingsImageView" destination="HxK-D4-gus" id="zdn-g9-glB"/>
+                                            <outlet property="reviewCountLabel" destination="Xjr-UD-cWm" id="Xyg-Md-Qb0"/>
+                                            <outlet property="thumbnailImageView" destination="csl-hL-1UB" id="JYX-ke-jr1"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
